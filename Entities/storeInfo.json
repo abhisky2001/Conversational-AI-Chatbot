@@ -1,0 +1,137 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "storeInfo",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "storeId",
+      "synonyms": [
+        "name",
+        "address__city",
+        "address__zip",
+        "address__street1",
+        "address__street2",
+        "address__state",
+        "storeTimeZone__zoneId",
+        "storeTimeZone__gmtOffset",
+        "storeTimeZone__dstSavings",
+        "phoneNumber",
+        "latitude",
+        "longitude",
+        "faxNumber",
+        "webAddress",
+        "serviceUrl",
+        "brands",
+        "servicePhoneNumber",
+        "salesHours__day",
+        "salesHours__openTime",
+        "salesHours__closeTime",
+        "serviceHours__day",
+        "serviceHours__openTime",
+        "serviceHours__closeTime",
+        "collisionHours__day",
+        "collisionHours__openTime",
+        "collisionHours__closeTime"
+      ]
+    },
+    {
+      "value": "2667",
+      "synonyms": [
+        "AutoNation Chrysler Dodge Jeep Ram Bellevue",
+        "Bellevue",
+        "98004",
+        "120 116th Avenue NE",
+        "null",
+        "WA",
+        "America/Los_Angeles",
+        "-7",
+        "1",
+        "(425) 454-8411",
+        "47.613223",
+        "-122.184390",
+        "(425) 462-0460",
+        "https://www.autonationchryslerdodgejeeprambellevue.com/",
+        "https://www.autonation.com/schedule-store-appointment/chrysler-dodge-jeep-ram-bellevue-wa?sc_lang=en",
+        "Dodge",
+        "425-900-5010",
+        "MONDAY",
+        "09:00",
+        "20:00",
+        "07:00",
+        "19:00",
+        "08:00",
+        "18:00"
+      ]
+    },
+    {
+      "value": "Jeep",
+      "synonyms": [
+        "TUESDAY",
+        "09:00",
+        "20:00",
+        "07:00",
+        "19:00",
+        "08:00",
+        "18:00"
+      ]
+    },
+    {
+      "value": "Chrysler",
+      "synonyms": [
+        "WEDNESDAY",
+        "09:00",
+        "20:00",
+        "07:00",
+        "19:00",
+        "08:00",
+        "18:00"
+      ]
+    },
+    {
+      "value": "Ram",
+      "synonyms": [
+        "THURSDAY",
+        "09:00",
+        "20:00",
+        "07:00",
+        "19:00",
+        "08:00",
+        "18:00"
+      ]
+    },
+    {
+      "value": "FRIDAY",
+      "synonyms": [
+        "09:00",
+        "20:00",
+        "FRIDAY",
+        "07:00",
+        "19:00",
+        "08:00",
+        "18:00"
+      ]
+    },
+    {
+      "value": "SATURDAY",
+      "synonyms": [
+        "09:00",
+        "20:00",
+        "SATURDAY",
+        "08:00",
+        "17:00",
+        "18:00"
+      ]
+    },
+    {
+      "value": "SUNDAY",
+      "synonyms": [
+        "10:00",
+        "19:00"
+      ]
+    }
+  ],
+  "id": "8e68fafb-5a0f-4bb8-8f69-fdf784af0a3e",
+  "isOverridable": false
+}

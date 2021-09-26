@@ -1,0 +1,101 @@
+{
+  "id": "f537e6fb-8ece-4c42-9777-d29453eb9408",
+  "name": "autonation-convend",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Thank you for choosing AutoNation , America's largest car dealers !"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thanks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d9e5e963-ad28-4b47-a11a-dac2d6cff76b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "End",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3c829cd5-03d2-4ade-bcbf-a95deeca6266",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Finished",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f6c1fd1a-c824-473c-89ab-49f239c3c61c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Done",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0209b00a-e405-45bc-a7a7-e6aa53ae2acb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "36ca7dc4-8b7c-4a24-a378-9a2264c5519e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

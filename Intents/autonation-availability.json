@@ -1,0 +1,214 @@
+{
+  "id": "c5a115de-24b1-404a-a6fe-3a411f229fd2",
+  "name": "autonation-availability",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "purchase"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "autonation-availability-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "storeinfo",
+          "dataType": "@storeInfo",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$storeinfo",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "brand",
+          "dataType": "@brand",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$brand",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "vehicle",
+          "dataType": "@vehicle",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$vehicle",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "We are America's largest Car dealers. We deal with brands like Chrysler, Dodge, Jeep, Ram and Bellevue. We have various models, colors and seating capacity to cater all your needs. \nDo you wish to purchase a vehicle ?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "seater",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "35af4c21-5e3c-40a0-adc6-4f02754eace4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "types",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d67ea125-5aec-41c2-b3d3-b6bbb30a6fdd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "models",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ba3878af-4141-48b5-86d9-2d80a547bf2a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "availability",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4ae31484-f30f-4273-96ed-e7342343eefc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "delaership",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9d2ebd2f-b1dc-447c-a518-5b22aeb4dad1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what ",
+          "userDefined": false
+        },
+        {
+          "text": "cars",
+          "userDefined": false,
+          "alias": "vehicle",
+          "meta": "@vehicle"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "do",
+          "userDefined": false,
+          "alias": "brand",
+          "meta": "@brand"
+        },
+        {
+          "text": " you deal with",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "09ee6c60-0d82-4931-bed8-90163854b1f5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what ",
+          "userDefined": false
+        },
+        {
+          "text": "brands",
+          "userDefined": false,
+          "alias": "storeinfo",
+          "meta": "@storeInfo"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "do",
+          "userDefined": false,
+          "alias": "brand",
+          "meta": "@brand"
+        },
+        {
+          "text": " you have",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "43094c13-b5fa-468a-a66d-e69acb755142",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,318 @@
+{
+  "id": "3865cd0f-fc11-4a0b-9d5b-ac656fec2ca5",
+  "name": "autonation-appointment",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "appointmenttype",
+          "dataType": "@appointmenttype",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "What type of service are you looking for ? \nOC - Oil change\nBK - Brake\nTR - Tire rotation\nMC - Master check\nFL - Filter\nTK - Tinkering\nUP - Autoparts Upgrade"
+          ],
+          "value": "$appointmenttype",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "annualmaintenance",
+          "dataType": "@annualmaintenance",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Do you have Annual Maintenance Service ?\nY / N"
+          ],
+          "value": "$annualmaintenance",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "vehicle",
+          "dataType": "@vehicle",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "What type of vehicle do you have ?\nNote: Service only available for the following type of vehicles\nSE - Sedan\nSV - SUV\nTR - Truck"
+          ],
+          "value": "$vehicle",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "brand",
+          "dataType": "@brand",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "What is your Car's brand ? \nCH - Chrysler\nDO - Dodge\nJP - Jeep\nRM - Ram\nBL - Bellevue"
+          ],
+          "value": "$brand",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "modelyear1",
+          "dataType": "@modelyear",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Which year model do you have ?\nNote: Servicing available for only 2018 - 2022 models"
+          ],
+          "value": "$modelyear1",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date",
+          "dataType": "@sys.date",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "When would you like to schedule the appointment ?"
+          ],
+          "value": "$date",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "time",
+          "dataType": "@sys.time",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Time ? (eg 21:00)\nTimezone:  Eastern Daylight Time"
+          ],
+          "value": "$time",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Your service appointment has been scheduled successfully on $date at $time EST!\nService Quote will be given by our technician during visit.",
+            "Appointment Scheduled successfully on $date at $time EST. See you there ! Service Quote will be given by our technician during visit."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "SA",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "778abbce-dc9f-43ed-bedc-f0efea60970a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "service",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6829e9d1-0feb-4cec-801f-02f172a57293",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When can i service my ",
+          "userDefined": false
+        },
+        {
+          "text": "car",
+          "userDefined": false,
+          "alias": "vehicle",
+          "meta": "@vehicle"
+        }
+      ],
+      "count": 0,
+      "id": "c9a8f13e-fe7f-4109-9ee6-8f2e8a255528",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Appointment",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e9cdd64-6039-4fab-b6db-038dba17eda6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Schedule",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "66e136f4-9c11-4220-abeb-d6fd4dbc3343",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Schedule appointment",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f501340b-869a-487c-a826-315973e517fe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Book an appointment",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6405efbe-8af2-43c2-baf3-e4e5a8898153",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I would like to book an appointment for my ",
+          "userDefined": false
+        },
+        {
+          "text": "Chrysler",
+          "userDefined": true,
+          "alias": "brand",
+          "meta": "@brand"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2021",
+          "userDefined": true,
+          "alias": "modelyear1",
+          "meta": "@modelyear"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Car",
+          "userDefined": false,
+          "alias": "vehicle",
+          "meta": "@vehicle"
+        },
+        {
+          "text": " for ",
+          "userDefined": false
+        },
+        {
+          "text": "oil check",
+          "userDefined": true,
+          "alias": "appointmenttype",
+          "meta": "@appointmenttype"
+        },
+        {
+          "text": " on ",
+          "userDefined": false
+        },
+        {
+          "text": "23 Sep 2021",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        },
+        {
+          "text": " at ",
+          "userDefined": false
+        },
+        {
+          "text": "10:00.",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " I have ",
+          "userDefined": false
+        },
+        {
+          "text": "amc",
+          "userDefined": true,
+          "alias": "annualmaintenance",
+          "meta": "@annualmaintenance"
+        }
+      ],
+      "count": 0,
+      "id": "f702f748-a144-4d8a-b7c2-47253f0d056d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

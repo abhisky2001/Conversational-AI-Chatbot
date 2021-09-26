@@ -1,0 +1,129 @@
+{
+  "id": "e93071ec-b471-460f-85bb-6ddca733d451",
+  "name": "autonation-welcome",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Welcome to AutoNation Florida's Customer Service ! \nI am Mike. How may I help you ?\nVP - Vehicle Purchase \nSA - Service Appointment\nTI - Store Timings\nAD - Address \nPH - Contact Details\nWEB - Website \n\nTo exit, please enter 'Finish' or 'End'"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "intialize",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4643ee15-895c-47d7-801f-3953627861a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "start",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "046a99c6-75a2-4e84-af16-8585e84f1e79",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "homepage",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b5bb17df-c970-4e56-8e6b-46aec8a73ca6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fea016de-83be-42ab-a59f-8457592084be",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "welcome",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e74aa82b-57b5-4d26-81cf-13b25b4c8746",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how are you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d07021da-b399-4bc3-bce0-60d7606ea64c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c13101bb-ca51-42bc-a5a2-7047d90a7678",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

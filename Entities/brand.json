@@ -1,0 +1,46 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "brand",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Chrysler",
+      "synonyms": [
+        "Chrysler",
+        "CH"
+      ]
+    },
+    {
+      "value": "Dodge",
+      "synonyms": [
+        "Dodge",
+        "DO"
+      ]
+    },
+    {
+      "value": "Jeep",
+      "synonyms": [
+        "Jeep",
+        "JP"
+      ]
+    },
+    {
+      "value": "Ram",
+      "synonyms": [
+        "Ram",
+        "RM"
+      ]
+    },
+    {
+      "value": "Bellevue",
+      "synonyms": [
+        "Bellevue",
+        "BL"
+      ]
+    }
+  ],
+  "id": "c42d40dc-41cf-4b31-8540-86ca8cbab281",
+  "isOverridable": false
+}

@@ -1,0 +1,41 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "modelyear",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "2018",
+      "synonyms": [
+        "2018"
+      ]
+    },
+    {
+      "value": "2019",
+      "synonyms": [
+        "2019"
+      ]
+    },
+    {
+      "value": "2020",
+      "synonyms": [
+        "2020"
+      ]
+    },
+    {
+      "value": "2021",
+      "synonyms": [
+        "2021"
+      ]
+    },
+    {
+      "value": "2022",
+      "synonyms": [
+        "2022"
+      ]
+    }
+  ],
+  "id": "3f4eb35b-561e-4404-bf36-e79b64298a64",
+  "isOverridable": false
+}

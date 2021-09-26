@@ -1,0 +1,193 @@
+{
+  "id": "d4dfcf61-63c1-4334-949a-26b341ed8523",
+  "name": "autonation-contactno",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "servicetype",
+          "dataType": "@servicetype",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$servicetype",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Contact : (425) 454-8411\nFax : (425) 462-0460\nService: (425) 900-5010"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Call",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "96d457eb-4273-4109-9186-677b8ce248b4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "May i get the phone number",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "19553c34-e15e-4b54-b2d0-9582d9393ac1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "May I get the contact number",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b050a014-96fc-4dfe-bf07-3c93b30eb5ea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Fax",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4f613705-9dc2-4811-8a38-bae6ce3a9ef9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Contact",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea8c9cc4-7d7a-485c-9ad8-92f64b1daa78",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Phone",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75d575cd-c8bb-4166-b22e-23477efc12f4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Service Phone Number",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f9030395-5b0a-4d9e-b3b2-f4bc4934c861",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Service",
+          "userDefined": false,
+          "alias": "servicetype",
+          "meta": "@servicetype"
+        },
+        {
+          "text": " Number",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6bf3714e-b340-46eb-afd7-b2c855be9c96",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Fax Number",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "81648cc8-45e2-47c7-a7ba-bf325356312a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Contact Number",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "76b1b656-8898-451b-af16-91f0f19be48b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is your contact number",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b9f4a21b-9947-4c44-89cc-8bdc82ce3b2d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

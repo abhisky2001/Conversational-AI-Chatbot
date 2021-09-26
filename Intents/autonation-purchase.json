@@ -1,0 +1,255 @@
+{
+  "id": "dc2c2b8e-9f2c-4120-9714-b8e204d415c9",
+  "name": "autonation-purchase",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "vehicle",
+          "dataType": "@vehicle",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "What type of vehicle would you like to buy ? \nSE - Sedan\nSV - SUV\nTR - Truck"
+          ],
+          "value": "$vehicle",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "brand",
+          "dataType": "@brand",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Which brand are you looking for ? We have the following available :\nCH - Chrysler\nDO - Dodge\nJP - Jeep\nRM - Ram\nBL - Bellevue"
+          ],
+          "value": "$brand",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "modelyear",
+          "dataType": "@modelyear",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "We have the following models available (2018, 2019, 2020, 2021, 2022). Which one do you prefer ?"
+          ],
+          "value": "$modelyear",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "color",
+          "dataType": "@color",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Which color do you prefer ? We have the following colors available:\nBlack\nWhite\nGrey / Silver\nRed\nBlue"
+          ],
+          "value": "$color",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "servicetype",
+          "dataType": "@servicetype",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$servicetype",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "capacity",
+          "dataType": "@capacity",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "What seating capacity are you looking for ? We have 4, 5 and 7 seaters available."
+          ],
+          "value": "$capacity",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Thank you for shopping with us. Our agent will be in touch with you shortly for further assistance.",
+            "Congratulations ! Your order of $brand $modelyear $color $vehicle has been placed. Our agent will be in contact with you shortly for further details and processing."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I prefer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b372568e-9b8b-48c9-9824-df26868479cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sales",
+          "userDefined": false,
+          "alias": "servicetype",
+          "meta": "@servicetype"
+        }
+      ],
+      "count": 0,
+      "id": "f4b99337-8cd7-423a-bd21-6e7c7f88056b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "buy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "19f8cb25-9db6-4d87-a2d6-234a57488669",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "purchase",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bea11ce2-d0f1-4101-b0bd-6aee466ca52c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vp",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f3f23ebe-ab52-47d7-9117-2710ef7a6d72",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I would like to buy a ",
+          "userDefined": false
+        },
+        {
+          "text": "car",
+          "userDefined": false,
+          "alias": "vehicle",
+          "meta": "@vehicle"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "black",
+          "userDefined": false,
+          "alias": "color",
+          "meta": "@color"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "chrysler",
+          "userDefined": true,
+          "alias": "brand",
+          "meta": "@brand"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "2021",
+          "userDefined": true,
+          "alias": "modelyear",
+          "meta": "@modelyear"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "4 seater",
+          "userDefined": true,
+          "alias": "capacity",
+          "meta": "@capacity"
+        },
+        {
+          "text": " vehicle",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cbf39ed8-d968-404a-9232-68df1f41cd8f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,32 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "capacity",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "7 seater",
+      "synonyms": [
+        "7 seater",
+        "7"
+      ]
+    },
+    {
+      "value": "5 seater",
+      "synonyms": [
+        "5 seater",
+        "5"
+      ]
+    },
+    {
+      "value": "4 seater",
+      "synonyms": [
+        "4 seater",
+        "4"
+      ]
+    }
+  ],
+  "id": "1a5a3f72-c53d-4f7a-9e8d-d9d97702d87d",
+  "isOverridable": false
+}

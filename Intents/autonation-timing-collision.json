@@ -1,0 +1,174 @@
+{
+  "id": "8158b201-1206-4ca5-8c4e-f9dbeb945aeb",
+  "name": "autonation-timing-collision",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "vehicle",
+          "dataType": "@vehicle",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$vehicle",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "servicetype",
+          "dataType": "@servicetype",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$servicetype",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Collision:  08:00 - 18:00 (Mon - Sat)\nWe are closed on Sunday\n\nWish to know Sales or Service timings ? (Please enter TI / ST)\nTo schedule an appointment please enter SA"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ct",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f3a5671e-1bf5-49a6-b218-6ca637707969",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Damage repair",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "24dc6a91-ffb1-4595-b214-f6661683d2cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Car",
+          "userDefined": false,
+          "alias": "vehicle",
+          "meta": "@vehicle"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "collision",
+          "userDefined": false,
+          "alias": "servicetype",
+          "meta": "@servicetype"
+        }
+      ],
+      "count": 0,
+      "id": "f747bce2-50f6-4bec-b4f8-f818c09b30ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Accident",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "902f220f-7bdf-4b86-97da-0c2a97f4e911",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Collision hours",
+          "userDefined": false,
+          "alias": "servicetype",
+          "meta": "@servicetype"
+        }
+      ],
+      "count": 0,
+      "id": "0b36f467-a580-478f-a644-c66dc3d87e24",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Collision",
+          "userDefined": false,
+          "alias": "servicetype",
+          "meta": "@servicetype"
+        }
+      ],
+      "count": 0,
+      "id": "8071dc64-2427-4f9b-912b-1213c8fc398b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Car",
+          "userDefined": false,
+          "alias": "vehicle",
+          "meta": "@vehicle"
+        },
+        {
+          "text": " Damage",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c6cc45c-e191-440d-9601-8701b2a7d449",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

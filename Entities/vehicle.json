@@ -1,0 +1,32 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "vehicle",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Truck",
+      "synonyms": [
+        "truck",
+        "TR"
+      ]
+    },
+    {
+      "value": "Sedan",
+      "synonyms": [
+        "sedan",
+        "SE"
+      ]
+    },
+    {
+      "value": "SUV",
+      "synonyms": [
+        "SUV",
+        "SV"
+      ]
+    }
+  ],
+  "id": "e90a0271-c700-45de-8d5c-970257ddaca9",
+  "isOverridable": false
+}

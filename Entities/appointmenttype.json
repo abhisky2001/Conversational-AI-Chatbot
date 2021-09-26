@@ -1,0 +1,70 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "appointmenttype",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "oilchange",
+      "synonyms": [
+        "oilchange",
+        "oil",
+        "OC"
+      ]
+    },
+    {
+      "value": "brake",
+      "synonyms": [
+        "brake",
+        "BK"
+      ]
+    },
+    {
+      "value": "tire rotation",
+      "synonyms": [
+        "tire rotation",
+        "tire",
+        "puncture",
+        "tire change",
+        "TR"
+      ]
+    },
+    {
+      "value": "master check",
+      "synonyms": [
+        "full body check",
+        "master check",
+        "MC"
+      ]
+    },
+    {
+      "value": "fliter replacement",
+      "synonyms": [
+        "fliter replacement",
+        "replacement",
+        "filter",
+        "cleaning",
+        "FL"
+      ]
+    },
+    {
+      "value": "tinkering",
+      "synonyms": [
+        "tinkering",
+        "TK"
+      ]
+    },
+    {
+      "value": "upgrade",
+      "synonyms": [
+        "autopart upgrade",
+        "upgrade",
+        "upgradation",
+        "UP"
+      ]
+    }
+  ],
+  "id": "3511cf1b-2120-4f86-aede-d1ecd5872e64",
+  "isOverridable": false
+}

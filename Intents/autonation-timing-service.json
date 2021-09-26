@@ -1,0 +1,109 @@
+{
+  "id": "a8920466-b7e0-41f7-ba8b-8e44c0ea9c09",
+  "name": "autonation-timing-service",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "servicetype",
+          "dataType": "@servicetype",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$servicetype",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Service:  07:00 - 19:00 (Mon - Fri)\n08:00 - 17:00 (Sat)\nWe are closed on Sunday\nAll timings are in Eastern Daylight time\n\nWish to know Sales and Collision timings ? (Please enter TI / CT)\nTo schedule an appointment, please enter SA"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ST",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "54ec5ed2-027e-49ea-b046-ca3e52b5494c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Service hours",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "064eeac9-e525-47a0-b355-8cf2c36d669d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are service hours",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bf4b20ab-6e95-434f-9e84-47904985d884",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "service",
+          "userDefined": false,
+          "alias": "servicetype",
+          "meta": "@servicetype"
+        },
+        {
+          "text": " timings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "634714c8-9662-433d-9d98-c189c70604da",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

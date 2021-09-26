@@ -1,0 +1,35 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "servicetype",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Sales",
+      "synonyms": [
+        "Sales",
+        "sales",
+        "sale"
+      ]
+    },
+    {
+      "value": "Service",
+      "synonyms": [
+        "Service",
+        "service",
+        "servic",
+        "servi"
+      ]
+    },
+    {
+      "value": "Collision hours",
+      "synonyms": [
+        "Collision hours",
+        "collision"
+      ]
+    }
+  ],
+  "id": "11a6df10-3eec-456d-9c24-83493b3bff14",
+  "isOverridable": false
+}

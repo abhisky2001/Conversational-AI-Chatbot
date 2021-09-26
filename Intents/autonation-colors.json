@@ -1,0 +1,101 @@
+{
+  "id": "b5969255-7f06-4374-8564-bb12bfb94d05",
+  "name": "autonation-colors",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "brand",
+          "dataType": "@brand",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$brand",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "We have cars available in the following colors:\nBlack\nWhite\nGrey/Silver\nRed\nBlue"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Available colours",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3471e646-19ee-4ceb-b454-7b8a253e6416",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Available colors",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "102ca072-d77f-4c88-aa68-c8add0a099e2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Which colors ",
+          "userDefined": false
+        },
+        {
+          "text": "do",
+          "userDefined": false,
+          "alias": "brand",
+          "meta": "@brand"
+        },
+        {
+          "text": " you have",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c2ec4a77-7225-44cd-af10-cb18478e7e50",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

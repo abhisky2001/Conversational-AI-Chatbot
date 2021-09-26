@@ -1,0 +1,281 @@
+{
+  "id": "ccfffcfc-ca06-40e8-b2db-07e9f3aea948",
+  "name": "autonation-address",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "AutoNation Chrysler Dodge Jeep Ram Bellevue \n120 116th Avenue NE\nWA\nZip: 98004\nLatitude : 47.613223\nLongitude: -122.184390"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "AD",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b268b3da-6bea-46ac-a984-e812563a87b2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is your service center ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "42822be4-543c-425e-9940-72fa2dd3d9de",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where is your store ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "17868788-b916-4105-9882-2b23371d24a9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Store Address",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "908e0eea-5e9a-4a65-bb62-bd42cb5c04df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "lattitude",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "24efadb1-97d6-4c84-bcf7-a260c3d52a84",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "geolocation",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "33b738c9-e25c-4be2-a661-5c3357907747",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "longitude",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "48ec4053-d1b5-4b8f-8f42-f07261e97e2d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "latitude",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4942bff1-af3e-47f7-ae67-59a9e59141e6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where are you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "19657ba9-15ec-435b-a206-11a37c76dcd6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "location",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5e0dae2f-1645-4cb2-83bf-327a8737c86d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "where",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d0347e8-86b2-4201-9784-e4e51d2e3a51",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Store Location",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a2aed735-1435-4a53-884f-2758851a4283",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Way to your store",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c626f797-83a7-4f22-94e1-91eb3ec75949",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I am lost",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "60a2a414-d8a8-49cb-a1aa-cf026f9bf3f5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you give me the directions",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2a75621e-0199-4181-a9d9-db8dae80fdfe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How do I get to you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31876499-4d94-40ef-bf28-311dce76af3d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I find you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "79fdfdc5-e833-49d7-99ab-9f182e727daf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "address",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d290fcb3-509e-4af1-8b96-2afd13d03a81",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Where are you located ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a5fef4f2-0e6e-4fe6-ac12-d0bb40855bba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is your address ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c1cad475-5cba-4c89-b545-7554a9670179",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

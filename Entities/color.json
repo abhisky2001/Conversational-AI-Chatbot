@@ -1,0 +1,47 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "color",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "red",
+      "synonyms": [
+        "red",
+        "Red",
+        "R"
+      ]
+    },
+    {
+      "value": "black",
+      "synonyms": [
+        "black",
+        "Black"
+      ]
+    },
+    {
+      "value": "blue",
+      "synonyms": [
+        "blue",
+        "Blue"
+      ]
+    },
+    {
+      "value": "grey/silver",
+      "synonyms": [
+        "Grey",
+        "Silver",
+        "Gray"
+      ]
+    },
+    {
+      "value": "white",
+      "synonyms": [
+        "white"
+      ]
+    }
+  ],
+  "id": "e3fa63f8-36a0-4e3f-8a68-75ecb17092c6",
+  "isOverridable": false
+}

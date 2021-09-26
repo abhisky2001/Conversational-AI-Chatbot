@@ -1,0 +1,149 @@
+{
+  "id": "f341dd2c-76ca-4847-acd5-324ec7706e3b",
+  "name": "autonation-timings-sales",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "09:00 - 20:00 (Mon - Sat)\n10:00 - 19:00 (Sun) \nAll timings are in Eastern Daylight time\n\nWish to know Service and Collision hours ? (Please enter ST / CT)"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "store hours",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fc3aa3df-b383-4c42-aec7-ece6ee359c44",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "TI",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cd4588e4-4b1e-4c56-96e8-a346aea067ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Sales hours",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cfda911d-d6fa-4ca5-9a8c-0c91d98202bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When are you open ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "adc21dab-419c-4ec0-855b-47bf52129507",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "office timing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e728bb41-0476-4d19-87da-60cd89f484ac",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Sales Office timing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "69ff1398-bacb-4ecb-a6b7-68b322f74e59",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When is your office open for sales ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9077b2b-6a63-468d-9734-24bce7350986",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Timing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e711c886-6377-4c0c-826a-e0ffc0dbb8b8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Sales timing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1f9b261-71fe-40ef-bae6-c27632af6531",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

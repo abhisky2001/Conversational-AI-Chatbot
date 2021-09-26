@@ -1,0 +1,31 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "annualmaintenance",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "yes",
+      "synonyms": [
+        "amc",
+        "anual maintenance service",
+        "y",
+        "Y",
+        "yes",
+        "oui"
+      ]
+    },
+    {
+      "value": "no",
+      "synonyms": [
+        "no",
+        "n",
+        "N",
+        "non"
+      ]
+    }
+  ],
+  "id": "c41fb2c6-618e-495b-b112-6e13e7339f0f",
+  "isOverridable": false
+}
