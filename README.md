@@ -17,3 +17,6 @@ It was a great learning opportunity. I got to learn Dialogflow and how to use Go
 
 ## What's next for AutoBot
 Integrating with a Database like Firestore and using some form of authentication to let customers create and set up a profile and retrieve previous orders and requests. 
+
+## Video 
+https://youtu.be/4REjSL8LcgY
